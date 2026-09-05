@@ -102,14 +102,84 @@ table{
   }
 }  
 
+.info-card{
+    border:2px solid purple;
+    border-radius:10px;
+    padding:20px;
+    margin:15px;
+    background-color:white;
+    transition:0.3s;
+    
+}
+    .info-card:hover{
+        transform:translateY(-5px);
+        box-shadow:0 5px 15px #999;
+    }
+        
+  .info-card h2{
+      color:purple;
+      margin-top:0;
+  }
+
+    .welcome{
+        padding:40px;
+        margin:20px;
+        border-radius:15px;
+        background-color:#4b1f1f;
+        color:white;
+    }
+
+    .welcome h1{
+        color:white;
+        font-size:35px;
+        margin:0;
+    }
+
+    .welcome p{
+        font-size:18px;
+    }
+
+.welcome{
+    transition:0.3s;
+}
+        
+.welcome:hover{
+    tranform:scale:(1.01);
+}
+nav{
+    padding:15px;
+    margin:10px 20px;
+    background-color:#333333;
+    border-radius:10px;
+}
+nav a{
+    color:white;
+    margin;0 15px;
+    font-weight:bold;
+}
+nav a:hover{
+    color:#ffd6d6;
+}
+
+        
         
   </style>
 
     
   <body>
+
+      <nav>
+
+<a href="GALLERY"book></a>
+<a href="INVENTORY">inventory</a>
+<a href="PROJECT">project</a>
+<a href="CONTACT">contact</a>
+    
+      </nav>
       
+  <div class="WELCOME">    
     <h1>Welcome To Lybrisync Bookstore</h1>
-    <h2>about this website</h2>
+    
     <p>
       Lybrisync bookstore is an online bookstore that offers a wide variety
         of books for readers of all ages.We provide fiction,fantasy,mystery
@@ -177,7 +247,7 @@ New Price: Ksh 1,500<br>
 
 <!-- Images -->
 <h2>Book Gallery</h2>
-<div class="book gallery" >        
+<div class="book-gallery" >        
 
 <img src="IMG.not quite dead yet.jpg" alt="Not quite dead yet" width="200">
 <img src="IMG.circle.jpg" alt="Circle" width="200">
@@ -260,17 +330,17 @@ New Price: Ksh 1,500<br>
 </table>
           <section class="cards">
 
-    <div class="card">
+    <div class="info-card">
         <h2>Portfolio</h2>
         <p>This section shows my work and skills in web design.</p>
     </div>
 
-    <div class="card">
+    <div class="info-card">
         <h2>My Project</h2>
         <p>This project is my bookstore website created using HTML and CSS.</p>
     </div>
 
-    <div class="card">
+    <div class="info-card">
         <h2>Assignments</h2>
         <p>This section contains my ICT assignments and class projects.</p>
     </div>
