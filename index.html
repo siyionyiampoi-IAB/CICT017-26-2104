@@ -33,15 +33,76 @@
 
     img{
         margin:10px;
+        border-radius:10px;
+        box-shadow:0 4px 10px #999;
+        transition:0.3s;
 
     } 
+
+img:hover{
+    transform:scale(1.05);
+}
 
     section{
         padding:25px;
         margin:20px;
     }
 
-         
+    .book-gallery{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+    .book-gallery img{
+        width:180px;
+        height:250px;
+        object-fit:cover;
+    
+    }
+    .book-gallery img{
+        border-radius:12px;
+        box-shadow:0 5px 12px #aaa;
+    }
+    div{
+        box-sizing:border-box;
+    }
+   a{
+       color:darkred;
+       text-decoration:none;
+   }
+   a:hover{
+       text-decoration:underline;
+   }
+        
+ table{
+     margin:20px auto;
+     border-collapse:collapse;
+ }
+
+th,td{
+    padding:8px;
+}
+        
+tr:hover{
+    background-color:#fff0e6;
+}
+
+@media(max-width:600px){
+ body{
+     font-size:14px;
+ }
+img{
+    max-width:90%;
+    height:auto;
+}
+
+table{
+    width:95%;
+    font-sized:12px;
+  }
+}  
+
+        
   </style>
 
     
@@ -116,6 +177,7 @@ New Price: Ksh 1,500<br>
 
 <!-- Images -->
 <h2>Book Gallery</h2>
+<div class="book gallery" >        
 
 <img src="IMG.not quite dead yet.jpg" alt="Not quite dead yet" width="200">
 <img src="IMG.circle.jpg" alt="Circle" width="200">
@@ -124,6 +186,7 @@ New Price: Ksh 1,500<br>
 <img src="IMG.rich dad poor dad.jpg" alt="Rich dad poor dad" width="200">
 <img src="IMG.think and grow rich.jpg" alt=Think and grow rich" width="200">
 <img src="demon bound.jpg" alt=Demon bound" width="200">
+</div>
           
 </form>
 
