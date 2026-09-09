@@ -1,391 +1,470 @@
 <!DOCTYPE html>
-<html>
-</head>
-    <title>Lybrisync Bookstore</title>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-      body {
-         background- color:#f8f5f0;
-          font-family:arial,sans-serif;
-           color:_#333333;
-           text-align:center;
-      }
-      h1 {
-        
-        background-color:peach;
-        padding: 15px
-        color:purple;
-        text-decoration:underlined;
-      }
+    <title>Book Haven</title>
 
-      h2 {
-        color:darkred; 
-        margin-top:30px;
-        margin-bottom:15px;
-      }
-     h3{
-     color:darkgreen;
-     margin-top:20px;
-     margin-bottom:10px;
+    <link rel="stylesheet" href="style.css">
+</head>
 
-     }
+<body>
 
-    img{
-        margin:10px;
-        border-radius:10px;
-        box-shadow:0 4px 10px #999;
-        transition:0.3s;
+<!-- ================= HEADER ================= -->
 
-    } 
+<header>
 
-img:hover{
-    transform:scale(1.05);
-}
-
-    section{
-        padding:25px;
-        margin:20px;
-    }
-
-    .book-gallery{
-        display:flex;
-        flex-wrap:wrap;
-        justify-content:center;
-    }
-    .book-gallery img{
-        width:180px;
-        height:250px;
-        object-fit:cover;
-    
-    }
-    .book-gallery img{
-        border-radius:12px;
-        box-shadow:0 5px 12px #aaa;
-    }
-    div{
-        box-sizing:border-box;
-    }
-   a{
-       color:darkred;
-       text-decoration:none;
-   }
-   a:hover{
-       text-decoration:underline;
-   }
-        
- table{
-     margin:20px auto;
-     border-collapse:collapse;
- }
-
-th,td{
-    padding:8px;
-}
-        
-tr:hover{
-    background-color:#fff0e6;
-}
-
-@media(max-width:600px){
- body{
-     font-size:14px;
- }
-img{
-    max-width:90%;
-    height:auto;
-}
-
-table{
-    width:95%;
-    font-sized:12px;
-  }
-}  
-
-.info-card{
-    border:2px solid purple;
-    border-radius:10px;
-    padding:20px;
-    margin:15px;
-    background-color:white;
-    transition:0.3s;
-    
-}
-    .info-card:hover{
-        transform:translateY(-5px);
-        box-shadow:0 5px 15px #999;
-    }
-        
-  .info-card h2{
-      color:purple;
-      margin-top:0;
-  }
-
-    .welcome{
-        padding:40px;
-        margin:20px;
-        border-radius:15px;
-        background-color:#4b1f1f;
-        color:white;
-    }
-
-    .welcome h1{
-        color:white;
-        font-size:35px;
-        margin:0;
-    }
-
-    .welcome p{
-        font-size:18px;
-    }
-
-.welcome{
-    transition:0.3s;
-}
-        
-.welcome:hover{
-    tranform:scale:(1.01);
-}
-nav{
-    padding:15px;
-    margin:10px 20px;
-    background-color:#333333;
-    border-radius:10px;
-}
-h2{
-    text-align:center;
-    margin-top:30px;
-    font-size:32px;
-}
-.book-gallery{
-    display:flex;
-    flex-wrap;
-    justify-content:center;
-    gap:25px;
-    padding:30px;
-}
-
-
-
-        
-
-        
-nav a{
-    color:white;
-    margin;0 15px;
-    font-weight:bold;
-}
-nav a:hover{
-    color:#ffd6d6;
-}
-
-        
-        
-  </style>
-
-    
-  <body>
-
-      <nav>
-
-<a href="GALLERY"book></a>
-<a href="INVENTORY">inventory</a>
-<a href="PROJECT">project</a>
-<a href="CONTACT">contact</a>
-    
-      </nav>
-      
-  <div class="WELCOME">    
-    <h1>Welcome To Lybrisync Bookstore</h1>
-    
-    <p>
-      Lybrisync bookstore is an online bookstore that offers a wide variety
-        of books for readers of all ages.We provide fiction,fantasy,myster y
-        self-improvement and educational books at affordable pricing.
-        Our goal is to help readers ad they discover new genres that may
-        help build their creativity and to develop a lifelong love for book reading.
-    </p>
-  
-  <h2>Available Books</h2>
-      <h3>NOT QUITE DEAD YET</h3>
-      <p><b>Price:Ksh1,350</b></P>
-      <button>BUY NOW</button>
-
-      <h3>CIRCE<h3>
-      <p><b>Price:Ksh 1,100</b></p>
-     <button>BUY NOW</button>
-     
-
-      <h3>DEMON BOUND<h3>
-      <p><b>Price:Ksh 1,500</b></p>
-
-    <p>
-    <mark>20% OFF</mark><br>
-    Original price:<del>Ksh 1,900</del><br>
-    New Price:<b>Ksh 1,500</b>
-    </p>
-    <button>Buy Now</button>
-
-    <h3>THINK AND GROW RICH</h3>
-    >p><b>Price:950</b>
-
-    <h3>RICH DAD POOR DAD</h3>
-    <p><b>Price:1,200</b></p>
-
-    <h3>ATOMIC HABITS</h3>
-   <p><b>Price:1,400</b></p>
-
-    <h3>THE ALCHEMIST</h3>
-    <p><b>Price:900</b></p>
-          
-
-  <h2>Why Choose Lybrisync?</h2>
-  <P>
-    We offer quality books at affordable prices.Do you enjoy
-    fantasy,fiction or mystery?Lybrisync has something for YOU
-  </P>
-          <h2>Contact us</h2>
-          <p>Email:lybrisync@gmail.com</p>
-          <P>Phone;0764843054</P>
-          <P>Locate:Nairobi,Kenya</P>
-          <!-- Paragraph 1 (Italic) -->
-<p><i>Lybrisync Bookstore is committed to making reading enjoyable for everyone. We offer books for learners, professionals, and book lovers. Reading every day helps improve knowledge and creativity.</i></p>
-
-<!-- Paragraph 2 (Bold + Color D) -->
-<p style="color: purple;"><b>We provide quality books at affordable prices. Customer satisfaction is our priority, and we are dedicated to promoting a culture of reading.</b></p>
-
-<!-- Paragraph 3 (Formatting Tags) -->
-<p>
-<mark>Special Offer: 20% OFF Selected Books!</mark><br>
-<del>Original Price: Ksh 1,900</del><br>
-New Price: Ksh 1,500<br>
-
-
-</p>
-
-<!-- Images -->
-<h2>Book Gallery</h2>
-<div class="book-gallery" >        
-
-<img src="IMG.not quite dead yet.jpg" alt="Not quite dead yet" width="200">
-<img src="IMG.circle.jpg" alt="Circle" width="200">
-<img src="IMG.the alchemist.jpg" alt="The alchemist" width="200">
-<img src="IMG.atomic habits.jpg" alt="Atomic habits" width="200">
-<img src="IMG.rich dad poor dad.jpg" alt="Rich dad poor dad" width="200">
-<img src="IMG.think and grow rich.jpg" alt=Think and grow rich" width="200">
-<img src="demon bound.jpg" alt=Demon bound" width="200">
-</div>
-          
-</form>
-
-<!-- Table -->
-<h2>Book Inventory</h2>
-
-<table border="1">
-<tr>
-<th>ID</th>
-<th>Book</th>
-<th>Author</th>
-<th>Price</th>
-<th>Stock</th>
-</tr>
-
-<tr>
-<td>1</td>
-<td>Not Quite Dead Yet</td>
-<td>Holly Jackson</td>
-<td>Ksh 1,350</td>
-<td>10</td>
-</tr>
-
-<tr>
-<td>2</td>
-<td>Circe</td>
-<td>Madeline Miller</td>
-<td>Ksh 1,100</td>
-<td>15</td>
-</tr>
-
-<tr>
-<td>3</td>
-<td>Demon Bound</td>
-<td>Debra Dunbar</td>
-<td>Ksh 1,500</td>
-<td>8</td>
-</tr>
-
-<tr>
-<td>4</td>
-<td>The Alchemist</td>
-<td>Paulo Coelho</td>
-<td>Ksh 900</td>
-<td>12</td>
-</tr>
-
-<tr>
-<td>5</td>
-<td>Atomic Habits</td>
-<td>James Clear</td>
-<td>Ksh 1,400</td>
-<td>20</td>
-</tr>
-
-<tr>
-<td>6</td>
-<td>Rich Dad Poor Dad</td>
-<td>Robert Kiyosaki</td>
-<td>Ksh 1,200</td>
-<td>9</td>
-</tr>
-
-<tr>
-<td>7</td>
-<td>Think and Grow Rich</td>
-<td>Napoleon Hill</td>
-<td>Ksh 950</td>
-<td>14</td>
-</tr>
-</table>
-          <section class="cards">
-
-    <div class="info-card">
-        <h2>Portfolio</h2>
-        <p>This section shows my work and skills in web design.</p>
+    <div class="logo">
+         <span>Book Haven</span>
     </div>
 
-    <div class="info-card">
-        <h2>My Project</h2>
-        <p>This project is my bookstore website created using HTML and CSS.</p>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#featured">Featured</a>
+        <a href="#arrivals">New Arrivals</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-right">
+        <input type="text" id="searchBox" placeholder="Search books...">
+        <button onclick="toggleDarkMode()">🌙</button>
+        <span class="cart">🛒 <b id="cartCount">0</b></span>
     </div>
 
-    <div class="info-card">
-        <h2>Assignments</h2>
-        <p>This section contains my ICT assignments and class projects.</p>
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-text">
+
+        <p class="small-title">WELCOME TO</p>
+
+        <h1 id="mainHeading">BOOK HAVEN</h1>
+
+        <h2>Your Gateway to Great Stories</h2>
+
+        <p>
+            Discover amazing books, explore new ideas,
+            and find your next favourite story at Book Haven.
+        </p>
+
+        <a href="#featured" class="main-btn">Explore Books</a>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img
+        src="https://images.unsplash.com/photo-1780673884750-6cdd60c17fa4?auto=format&fit=crop&q=80&w=1600"
+        alt="Bookshelves">
+
     </div>
 
 </section>
-          
 
-<section>
-    <h2>book Videos</h2>
 
-    <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/PmvH6R-H44"
-        title="book video1"
-        allowfullscreen> 
-    </iframe>
+<!-- ================= CONTROLS ================= -->
 
-    <br><br>
-   
-    <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/-yPOVTkUDk"
-        title="book Video 2"
-        allowfullscreen>
-    </iframe>
+<section class="controls">
+
+    <h2>Customize Your Page</h2>
+
+    <button onclick="makeRed()">Red Heading</button>
+
+    <button onclick="makeBlue()">Blue Heading</button>
+
+    <button onclick="makeGreen()">Green Heading</button>
+
+    <button onclick="lightMode()">Light Mode</button>
+
+    <button onclick="darkMode()">Dark Mode</button>
+
 </section>
 
-<script src="script.js"></sript>
-          
-  </body>
-  </html>
-          
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="about">
+
+    <div>
+
+        <p class="small-title">ABOUT US</p>
+
+        <h2>We bring Knowledge to your door step📖</h2>
+
+        <p>
+            Book Haven is a modern online bookstore created
+            for readers who love discovering interesting,
+            inspiring and educational books.
+        </p>
+
+        <p>
+            Our collection includes fiction, non-fiction,
+            educational books, personal development books
+            and many more.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURED ================= -->
+
+<section id="featured" class="books-section">
+
+    <div class="section-title">
+
+        <p class="small-title">OUR COLLECTION</p>
+
+        <h2>Featured Books</h2>
+
+        <p>Discover some of our most popular books.</p>
+
+    </div>
+
+
+    <div class="book-grid">
+
+        <!-- BOOK 1 -->
+
+        <div class="book-card" data-type="Fiction">
+
+            <div class="book-cover">
+                <img
+                src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=500&q=80"
+                alt="Book">
+            </div>
+
+            <div class="book-info">
+
+                <span class="category">Fiction</span>
+
+                <h3>The Secret Garden</h3>
+
+                <p>Frances Hodgson Burnett</p>
+
+                <div class="stars">★★★★★</div>
+
+                <div class="price">
+                    KSh 1,200
+                    <span>KSh 1,500</span>
+                </div>
+
+                <button class="cart-btn" onclick="addToCart()">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOOK 2 -->
+
+        <div class="book-card" data-type="Non-fiction">
+
+            <div class="book-cover">
+                <img
+                src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=500&q=80"
+                alt="Book">
+            </div>
+
+            <div class="book-info">
+
+                <span class="category">Non-fiction</span>
+
+                <h3>Think and Grow</h3>
+
+                <p>Napoleon Hill</p>
+
+                <div class="stars">★★★★★</div>
+
+                <div class="price">
+                    KSh 1,500
+                    <span>KSh 1,900</span>
+                </div>
+
+                <button class="cart-btn" onclick="addToCart()">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOOK 3 -->
+
+        <div class="book-card" data-type="Education">
+
+            <div class="book-cover">
+                <img
+                src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=500&q=80"
+                alt="Book">
+            </div>
+
+            <div class="book-info">
+
+                <span class="category">Education</span>
+
+                <h3>Learning Today</h3>
+
+                <p>John Williams</p>
+
+                <div class="stars">★★★★☆</div>
+
+                <div class="price">
+                    KSh 950
+                    <span>KSh 1,200</span>
+                </div>
+
+                <button class="cart-btn" onclick="addToCart()">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOOK 4 -->
+
+        <div class="book-card" data-type="Self Development">
+
+            <div class="book-cover">
+                <img
+                src="https://images.unsplash.com/photo-1511108690759-009324a90311?auto=format&fit=crop&w=500&q=80"
+                alt="Book">
+            </div>
+
+            <div class="book-info">
+
+                <span class="category">Self Development</span>
+
+                <h3>Become Better</h3>
+
+                <p>James Clear</p>
+
+                <div class="stars">★★★★★</div>
+
+                <div class="price">
+                    KSh 1,800
+                    <span>KSh 2,200</span>
+                </div>
+
+                <button class="cart-btn" onclick="addToCart()">
+                    Add to Cart
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FILTER ================= -->
+
+<section class="filter-section">
+
+    <h2>Find Your Book</h2>
+
+    <select id="bookFilter" onchange="filterBooks()">
+
+        <option value="All">All Books</option>
+
+        <option value="Fiction">Fiction</option>
+
+        <option value="Non-fiction">Non-fiction</option>
+
+        <option value="Education">Education</option>
+
+        <option value="Self Development">
+            Self Development
+        </option>
+
+    </select>
+
+</section>
+
+
+<!-- ================= NEW ARRIVALS ================= -->
+
+<section id="arrivals" class="books-section arrivals">
+
+    <div class="section-title">
+
+        <p class="small-title">JUST ARRIVED</p>
+
+        <h2>New Arrivals</h2>
+
+        <p>Check out the latest additions to Book Haven.</p>
+
+    </div>
+
+
+    <div class="arrival-grid">
+
+        <div class="arrival-card">
+
+            <div class="arrival-number">01</div>
+
+            <h3>Atomic Habits</h3>
+
+            <p>James Clear</p>
+
+            <div class="stars">★★★★★</div>
+
+            <h4>KSh 2,000</h4>
+
+            <button onclick="buyNow('Atomic Habits')">
+                Buy Now
+            </button>
+
+        </div>
+
+
+        <div class="arrival-card">
+
+            <div class="arrival-number">02</div>
+
+            <h3>The Alchemist</h3>
+
+            <p>Paulo Coelho</p>
+
+            <div class="stars">★★★★★</div>
+
+            <h4>KSh 1,400</h4>
+
+            <button onclick="buyNow('The Alchemist')">
+                Buy Now
+            </button>
+
+        </div>
+
+
+        <div class="arrival-card">
+
+            <div class="arrival-number">03</div>
+
+            <h3>Rich Dad Poor Dad</h3>
+
+            <p>Robert Kiyosaki</p>
+
+            <div class="stars">★★★★☆</div>
+
+            <h4>KSh 1,700</h4>
+
+            <button onclick="buyNow('Rich Dad Poor Dad')">
+                Buy Now
+            </button>
+
+        </div>
+
+
+        <div class="arrival-card">
+
+            <div class="arrival-number">04</div>
+
+            <h3>It Ends With Us</h3>
+
+            <p>Colleen Hoover</p>
+
+            <div class="stars">★★★★★</div>
+
+            <h4>KSh 1,600</h4>
+
+            <button onclick="buyNow('It Ends With Us')">
+                Buy Now
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services">
+
+    <div>
+        <span>🚚</span>
+        <h3>Fast Delivery</h3>
+        <p>Quick and reliable delivery.</p>
+    </div>
+
+    <div>
+        <span>🔒</span>
+        <h3>Secure Payment</h3>
+        <p>Your information stays safe.</p>
+    </div>
+
+    <div>
+        <span>📚</span>
+        <h3>Quality Books</h3>
+        <p>Books for every kind of reader.</p>
+    </div>
+
+    <div>
+        <span>💬</span>
+        <h3>Customer Support</h3>
+        <p>We are here to help.</p>
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="contact">
+
+    <div class="footer-logo">
+        📚 BOOK HAVEN
+    </div>
+
+    <p>
+        Your gateway to great stories and endless knowledge.
+    </p>
+
+    <p>
+        Email: bookhaven@example.com
+    </p>
+
+    <p>
+        Phone: +254 700 000 000
+    </p>
+
+    <div class="footer-links">
+
+        <a href="#home">Home</a>
+
+        <a href="#featured">Featured</a>
+
+        <a href="#arrivals">Arrivals</a>
+
+        <a href="#about">About</a>
+
+    </div>
+
+    <p class="copyright">
+        © 2026 Book Haven. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
